@@ -38,3 +38,4 @@ jobs:
         with:
           project-url: https://github.com/orgs/spring-projects/projects/25
           github-token: ${{ secrets.GH_ISSUES_TOKEN_SPRING_DATA }}
+uses: actions/add-to-project@v1.0.2.4
